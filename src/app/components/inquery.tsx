@@ -118,7 +118,7 @@ export function Inquery() {
     }
   }
   
-  function handleAccountTypeChange(newValue) {
+  function handleAccountTypeChange(newValue: any) {
     if (accountType === "discord" && newValue === "email") {
       // accountType が "discord" から "email" に変更された場合、email フィールドのデータを削除
       form.setValue("emailAddress", "");
