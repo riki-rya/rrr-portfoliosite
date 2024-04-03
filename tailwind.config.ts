@@ -76,7 +76,7 @@ const config = {
   },
   plugins: [
     require("tailwindcss-animate"),
-    function({ addUtilities }) {
+    function({ addUtilities }: { addUtilities: Function }) {
       addUtilities({
         '.text-shadow-red-sm': {
           textShadow: '0 1px 2px rgba(255, 0, 0, 0.1)', // 赤色のテキストシャドウ、透明度 0.5
