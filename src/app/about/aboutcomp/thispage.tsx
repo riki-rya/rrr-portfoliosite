@@ -35,7 +35,6 @@ const Thispage = () => {
                             <Image
                                 src="/icons/framer-motion.svg"
                                 alt="Vercel Logo"
-                                className="dark:invert"
                                 width={180}
                                 height={37}
                                 priority
