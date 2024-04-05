@@ -27,20 +27,7 @@ const App = () => {
             >
               <Thispage />
             </ScrollAnimator>
-        <section className="section">
-          <ScrollAnimator
-            start={{ opacity: 0, translateX: 40, backgroundColor: '#f4f4f4' }}
-            end={{ opacity: 1, translateX: 0, backgroundColor: '#f4f4f4' }}
-            transition={{ transitionDuration: 0.6, transitionTimingFunction: 'ease-in-out' }}
-          >
-            <h2>Services</h2>
-            <ul>
-              <li>Service 1</li>
-              <li>Service 2</li>
-              <li>Service 3</li>
-            </ul>
-          </ScrollAnimator>
-        </section>
+
         </main>
     </div>
   );
