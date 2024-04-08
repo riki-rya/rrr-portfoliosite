@@ -20,11 +20,11 @@ const Cardlist = () => {
       <Card>
         <CardHeader>
           <CardTitle className="flex items-center gap-4">
-          <Avatar>
-            <AvatarImage src="/icons/GItv8NcaIAA9cSZ.jpg" />
-            <AvatarFallback>logo</AvatarFallback>
-          </Avatar>
-            起床確認ボット
+            <Avatar>
+              <AvatarImage src="/icons/GItv8NcaIAA9cSZ.jpg" />
+              <AvatarFallback>logo</AvatarFallback>
+            </Avatar>
+            NNSS
           </CardTitle>
           <CardDescription>
             スラッシュコマンドを使用できるボットです<br />
@@ -32,41 +32,23 @@ const Cardlist = () => {
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <p className="ml-3">コマンド</p>
-          <code className="bg-gray-800 text-white px-2 py-1 rounded">/niero &#123;UserID&#125;</code>
+          <p className="ml-3">コマンド一覧</p>
+          <div className="mt-2">
+            <code className="bg-gray-800 text-white px-2 py-1 rounded">/status &#123;UserID&#125;</code>
+          </div>
+          <div className="mt-2">
+            <code className="bg-gray-800 text-white px-2 py-1 rounded">/setlang &#123;lang&#125;</code>
+          </div>
+          <div className="mt-2">
+            <code className="bg-gray-800 text-white px-2 py-1 rounded">/deletelang &#123;lang&#125;</code>
+          </div>
         </CardContent>
         <CardFooter className="flex justify-center">
-        <Button asChild>
-          <a href="https://discord.com/oauth2/authorize?client_id=1212355277723144273&permissions=8&scope=bot+applications.commands" target="_blank" rel="noopener noreferrer">
-            <FaDiscord className="mr-2 h-4 w-4" /> Invite DiscordBot
-          </a>
-        </Button>
-        </CardFooter>
-      </Card>
-      <Card>
-        <CardHeader>
-          <CardTitle className="flex items-center gap-4">
-          <Avatar>
-            <AvatarImage src="/icons/setT.jpg" />
-            <AvatarFallback>logo</AvatarFallback>
-          </Avatar>
-            翻訳ボット
-          </CardTitle>
-          <CardDescription>
-          翻訳したいチャンネルでコマンドを実施<br />
-          チャンネルに投稿された日本語をセットされた言語へ翻訳してくれるボットです<br />
-          </CardDescription>
-        </CardHeader>
-        <CardContent>
-          <p className="ml-3">コマンド</p>
-          <code className="bg-gray-800 text-white px-2 py-1 rounded">!set &#123;language&#125;</code>
-        </CardContent>
-        <CardFooter className="flex justify-center">
-        <Button asChild>
-          <a href="https://discord.com/oauth2/authorize?client_id=1212391258543104051&permissions=8&scope=bot+applications.commands" target="_blank" rel="noopener noreferrer">
-            <FaDiscord className="mr-2 h-4 w-4" /> Invite DiscordBot
-          </a>
-        </Button>
+          <Button asChild>
+            <a href="https://discord.com/oauth2/authorize?client_id=1225778303844225077&permissions=19456&scope=bot+applications.commands" target="_blank" rel="noopener noreferrer">
+              <FaDiscord className="mr-2 h-4 w-4" /> Invite DiscordBot
+            </a>
+          </Button>
         </CardFooter>
       </Card>
     </div>
