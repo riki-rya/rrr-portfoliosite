@@ -69,7 +69,7 @@ export function Inquery() {
 
   async function sendToDiscordWebhook(data: z.infer<typeof formSchema>) {
     const webhookUrl =
-      "https://ptb.discord.com/api/webhooks/1219519085650645034/0UUtZx6weGk1zrZnv1uS-s0qlr6EPC9aEEd3eCn6-AARIqbng6XUuP73AKpa-0JsYMbr";
+      "https://discord.com/api/webhooks/1228723863781769306/58fOVKYmSCD6La7BuSmXiyiyz9khfpYb1UWSrI9vD3cnMXmNKgM-JkqPjA-McWuheTTc";
     const message = `UserName: ${data.username}\nEmail Address: ${
       data.emailAddress ?? "Not provided"
     }\nDiscord: ${data.discord ?? "Not provided"}\nInquiry Text: ${data.bio}`;
